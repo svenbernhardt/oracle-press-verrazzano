@@ -1,0 +1,16 @@
+apiVersion: install.verrazzano.io/v1beta1
+kind: Verrazzano
+metadata:
+  name: verrazzano-dev
+spec:
+  profile: managed-cluster
+  defaultVolumeSource:
+    persistentVolumeClaim:
+      claimName: verrazzano-storage
+  volumeClaimSpecTemplates:
+    - metadata:
+        name: verrazzano-storage
+      spec:
+        resources:
+          requests:
+            storage: 2Gi

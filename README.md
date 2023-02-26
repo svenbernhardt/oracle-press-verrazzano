@@ -1,2 +1,3 @@
-# oracle-press-verrazzano
-Repo for Oracle Press publication "Thoughts on Oracle"
+# Verrazzano Enterprise Container Platfrom
+
+This repo contains code examples used in the Oracle Press publication "Thoughts on Oracle".
