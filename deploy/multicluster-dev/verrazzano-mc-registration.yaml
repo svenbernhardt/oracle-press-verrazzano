@@ -4,4 +4,4 @@ metadata:
   name: managed-cluster-1
   namespace: verrazzano-mc
 spec:
-  description: "Verrazzano VerrazzanoManagedCluster object"
+  description: "VerrazzanoManagedCluster object"

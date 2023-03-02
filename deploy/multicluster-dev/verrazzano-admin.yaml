@@ -7,11 +7,20 @@ spec:
   components:
     argoCD:
       enabled: true
+    velero:
+      enabled: true
+    jaegerOperator:
+      enabled: true
     clusterOperator:
       overrides:
       - values:
           syncClusters:
             enabled: true
+            clusterSelector:
+              matchExpressions:
+              - key: verrazzanomulticluster
+                operator: In
+                values: [supported]
   defaultVolumeSource:
     persistentVolumeClaim:
       claimName: verrazzano-storage
