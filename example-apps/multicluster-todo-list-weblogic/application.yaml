@@ -35,7 +35,7 @@ spec:
         - componentName: todo-mysql-deployment
   placement:
     clusters:
-      - name: managed1
+      - name: managed-cluster-1
   secrets:
     - tododomain-repo-credentials
     - tododomain-jdbc-tododb
