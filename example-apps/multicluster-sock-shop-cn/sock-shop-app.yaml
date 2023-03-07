@@ -149,5 +149,5 @@ spec:
                     - port: 9612
   placement:
     clusters:
-      - name: managed1
+      - name: managed-cluster-1
 
