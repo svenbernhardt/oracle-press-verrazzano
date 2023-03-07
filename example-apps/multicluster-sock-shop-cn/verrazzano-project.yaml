@@ -10,9 +10,6 @@ spec:
     namespaces:
       - metadata:
           name: mc-sockshop
-          labels:
-            istio-injection: "enabled"
-            sidecar.jaegertracing.io/inject: "true"
   placement:
     clusters:
       - name: managed-cluster-1
