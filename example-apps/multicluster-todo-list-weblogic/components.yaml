@@ -16,8 +16,6 @@ spec:
         metadata:
           name: todo-domain
           namespace: mc-todo-list
-          annotations:
-            "sidecar.jaegertracing.io/inject": "true"
         spec:
           adminServer:
             adminChannelPortForwardingEnabled: true
